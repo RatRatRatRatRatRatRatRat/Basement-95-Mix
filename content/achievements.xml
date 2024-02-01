@@ -1,0 +1,11 @@
+<achievements gfxroot="gfx/ui/achievements/">
+
+	<!-- characters -->
+	<achievement name="Tainted Milcom" text='' gfx="achievement_milcom_placeholder.png" />
+	<achievement name="Tainted Atlas" text='' gfx="achievement_milcom_placeholder.png" />
+
+	<achievement name="SkibidiDopDop" text="" gfx="achievement_milcom_placeholder.png" >
+		<condition conditiontype="completionmark" conditionvalue="ISAAC" conditioncharacter="Milcom" />
+	</achievement>
+	
+</achievements>
