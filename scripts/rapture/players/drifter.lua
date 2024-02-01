@@ -1,4 +1,4 @@
-local mod = Isaac95Mod
+local mod = Basement95MIX
 
 local PLAYER_DRIFTER = Isaac.GetPlayerTypeByName("Drifter", false)
 

@@ -1,5 +1,9 @@
 <players nameimageroot="gfx/ui/boss/" portraitroot="gfx/ui/stage/" root="gfx/characters/players/">
 	<player birthright="-" name="Drifter"
-		nameimage="generic_name.png" portrait="generic_portrait.png" skin="character_drifter.png" skinColor="-1"
+		nameimage="name_b95generic.png" portrait="portrait_b95generic.png" skin="character_drifter.png" skinColor="-1"
+	/>
+
+	<player birthright="-" name="B95 GENERIC"
+		nameimage="name_b95generic.png" portrait="portrait_b95generic.png" skin="character_b95generic.png" skinColor="-1"
 	/>
 </players>

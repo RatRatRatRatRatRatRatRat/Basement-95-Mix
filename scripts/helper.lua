@@ -1,4 +1,4 @@
-local mod = Isaac95Mod
+local mod = Basement95MIX
 
 function mod:unlock(unlock, force)
     local pgd = Isaac.GetPersistentGameData()

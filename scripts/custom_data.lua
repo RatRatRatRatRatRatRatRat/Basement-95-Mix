@@ -1,37 +1,37 @@
-local Basement95MIX = {}
+local Basement95MIXData = {}
 
-function Isaac95Mod:getDataTable(entity)
-    if(not Basement95MIX[GetPtrHash(entity)]) then Basement95MIX[GetPtrHash(entity)]={} end
+function Basement95MIX:getDataTable(entity)
+    if(not Basement95MIXData[GetPtrHash(entity)]) then Basement95MIXData[GetPtrHash(entity)]={} end
 
-    return Basement95MIX[GetPtrHash(entity)]
+    return Basement95MIXData[GetPtrHash(entity)]
 end
 
-function Isaac95Mod:getData(entity, key)
-    if(not Basement95MIX[GetPtrHash(entity)]) then Basement95MIX[GetPtrHash(entity)]={} end
+function Basement95MIX:getData(entity, key)
+    if(not Basement95MIXData[GetPtrHash(entity)]) then Basement95MIXData[GetPtrHash(entity)]={} end
 
-    return Basement95MIX[GetPtrHash(entity)][key]
+    return Basement95MIXData[GetPtrHash(entity)][key]
 end
 
-function Isaac95Mod:setData(entity, key, val)
+function Basement95MIX:setData(entity, key, val)
     local exists = true
-    if(not Basement95MIX[GetPtrHash(entity)]) then
-        Basement95MIX[GetPtrHash(entity)]={}
+    if(not Basement95MIXData[GetPtrHash(entity)]) then
+        Basement95MIXData[GetPtrHash(entity)]={}
         exists=false
     end
 
-    Basement95MIX[GetPtrHash(entity)][key]=val
+    Basement95MIXData[GetPtrHash(entity)][key]=val
 
     return exists
 end
 
-Isaac95Mod:AddPriorityCallback(ModCallbacks.MC_POST_ENTITY_REMOVE, CallbackPriority.LATE+1,
+Basement95MIX:AddPriorityCallback(ModCallbacks.MC_POST_ENTITY_REMOVE, CallbackPriority.LATE+1,
     function(_, entity)
-        Basement95MIX[GetPtrHash(entity)] = nil
+        Basement95MIXData[GetPtrHash(entity)] = nil
     end
 )
 
-Isaac95Mod:AddPriorityCallback(ModCallbacks.MC_PRE_GAME_EXIT, CallbackPriority.LATE+1,
+Basement95MIX:AddPriorityCallback(ModCallbacks.MC_PRE_GAME_EXIT, CallbackPriority.LATE+1,
     function()
-        Basement95MIX = {}
+        Basement95MIXData = {}
     end
 )
