@@ -1,3 +1,5 @@
 <items gfxroot="gfx/items/" version="1" deathanm2="gfx/death items.anm2" >
+	<passive id="1" name="Heart of Gold" description="Generosity = Power" gfx="b95m_heartofgold.png" quality="3" tags="" cache="damage"/>
 
+    <trinket id="1" name="Purple Penny" description="Wealth of Challenge" gfx="b95m_purplepenny.png"/>
 </items>

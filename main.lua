@@ -6,6 +6,11 @@ local mod_files = {
     "scripts.helper",
     
     "scripts.rapture.players.drifter",
+
+    --rat engage
+    "scripts.corrupted_data.collectibles.heartofgold",
+
+    "scripts.corrupted_data.trinkets.purplepenny",
 }
 for _, path in ipairs(mod_files) do
     include(path)
