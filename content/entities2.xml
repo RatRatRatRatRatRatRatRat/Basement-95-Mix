@@ -1,3 +1,5 @@
 <entities anm2root="gfx/" version="5">
-
+	<entity anm2path="familiar/familiar_opticnerve.anm2" baseHP="0" boss="0" champion="0" collisionDamage="2" collisionMass="20" collisionRadius="20" friction="1" id="3" name="Optic Nerve" numGridCollisionPoints="12" shadowSize="14" stageHP="0" tags="cansacrifice" variant="9500">
+        <gibs amount="0" blood="0" bone="0" eye="0" gut="0" large="0"/>
+    </entity>
 </entities>

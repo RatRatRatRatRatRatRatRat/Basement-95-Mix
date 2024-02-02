@@ -9,6 +9,7 @@ local mod_files = {
 
     --rat engage
     "scripts.corrupted_data.collectibles.heartofgold",
+    "scripts.corrupted_data.collectibles.opticnerve",
 
     "scripts.corrupted_data.trinkets.purplepenny",
 }
