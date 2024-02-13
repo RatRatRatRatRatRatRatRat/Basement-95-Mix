@@ -3,7 +3,7 @@
     "runtime.version": "Lua 5.3",
     "workspace.library": [
         "c:\\Users\\2023\\.vscode\\extensions\\syntaxsculptor.isaac-lua-api-vscode-repentogon-1.5.6\\out\\emmylua",
-        "c:\\Users\\kfeel\\.vscode\\extensions\\filloax.isaac-lua-api-vscode-1.7.0\\out\\emmylua\\repentogon"
+        "c:\\Users\\User\\.vscode\\extensions\\filloax.isaac-lua-api-vscode-1.6.1\\out\\emmylua\\repentogon"
     ],
     "diagnostics.globals": [
         "ActionTriggers",
@@ -246,6 +246,7 @@
         "XMLNode",
         "REPENTOGON",
         "NullPickupSubType",
-        "OptionsMenu"
+        "OptionsMenu",
+        "include"
     ]
 }

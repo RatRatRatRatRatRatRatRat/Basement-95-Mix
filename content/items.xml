@@ -3,4 +3,10 @@
     <familiar id="1" name="Optic Nerve"   description="Nervous friend"      gfx="b95m_opticnerve.png"  quality="3" tags="" cache="familiar"/>
 
     <trinket  id="1" name="Purple Penny"  description="Wealth of Challenge" gfx="b95m_purplepenny.png"/>
+
+    <!-- The good coder (Monwil).-->
+    <trinket  name="Unnamed Reroll Trinket"  description="Unroll rerolls" gfx="b95m_purplepenny.png"/>
+    <active  name="Red Roulette"  description="Dare to play?" gfx="b95m_placeholder.png" maxcharges="0" quality="3" tags="summonable offensive" cache="damage" persistent="true"/>
+    <passive  name="Scroll of Power"  description="Damage amplifier" gfx="b95m_placeholder.png" quality="3" craftquality="4" tags="summonable offensive"/>
+    <passive  name="Glitched Miner"  description="Error ore" gfx="b95m_placeholder.png" quality="2" tags="summonable offensive"/>
 </items>

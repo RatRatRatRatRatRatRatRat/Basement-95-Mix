@@ -4,7 +4,7 @@ local mod = Basement95MIX
 local mod_files = {
     "scripts.custom_data",
     "scripts.helper",
-    
+
     "scripts.rapture.players.drifter",
 
     --rat engage
@@ -12,6 +12,9 @@ local mod_files = {
     "scripts.corrupted_data.collectibles.opticnerve",
 
     "scripts.corrupted_data.trinkets.purplepenny",
+
+    --good coder (Monwil)
+    "scripts.monwils_landfill.mainwil",
 }
 for _, path in ipairs(mod_files) do
     include(path)
