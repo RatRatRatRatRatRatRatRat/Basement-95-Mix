@@ -14,7 +14,6 @@ for directory, files in pairs({
     active = {
         "red_roulette",
         "fast_forward",
-        "black_eyed_pea",
     },
 })do
     for _, file in ipairs(files) do

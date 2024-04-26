@@ -13,9 +13,6 @@
     <active     name="Fast Forward"  description="Overclocked" gfx="b95m_placeholder.png"
         maxcharges="2" cooldown="900" quality="2" tags="offensive"/>
 
-    <active     name="Black-Eyed Pea"  description="Weakening toots" gfx="b95m_placeholder.png"
-        maxcharges="3" quality="2" tags="offensive"/>
-
     <passive    name="Scroll of Power"  description="Damage amplifier" gfx="b95m_placeholder.png"
         quality="3" craftquality="4" tags="summonable offensive"/>
 
